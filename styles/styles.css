@@ -38,7 +38,7 @@ border-radius: 16px;
 background: rgba(13, 19, 33, 0.02);
 margin-left: 155px;
 }
-.why-qus,.inspiration-title{
+.why-qus,.inspiration-title,.target-title{
     text-align: center;
     margin-top: 100px;
     font-size: 32px;
@@ -47,7 +47,7 @@ padding-top: 80px;
 font-size: 24px;
 font-weight: 700;
 }
-.why-ans,.inspiration-info{
+.why-ans,.inspiration-info,.target-info{
     color:rgb(13, 19, 33);
     opacity: 0.7;
     text-align: center;
@@ -115,4 +115,48 @@ height: 500px;
 padding:82px;
 margin-left: 180px;
 border-radius: 10px;
+}
+.current-target{
+    display: flex;
+    justify-content: space-around;
+}
+.html-part{
+    width: 250px;
+height: 310px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+padding: 35px;
+}
+.css-part{
+    width: 250px;
+height: 310px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+padding: 35px;
+}
+.java-part{
+    width: 250px;
+height: 310px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+padding: 35px;
+}
+.html-part>a{
+    color:black
+}
+.css-part>a{
+    color:black
+}
+.java-part>a{
+    color:black
+}
+.html-title,.css-title,.java-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.html.info,.css-info.java-info{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
 }
